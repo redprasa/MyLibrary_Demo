@@ -6,7 +6,7 @@ pipeline {
             steps {
             vcCheckout(
                 branch: "master",
-                url: "https://github.com/redprasa/jenkins_shared_library"
+                url: "https://github.com/redprasa/jenkins_shared_library.git"
             )
             }
     }
